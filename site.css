@@ -1,0 +1,55 @@
+nav{
+        
+    display: flex;
+    justify-content: space-between ;
+    padding: 20px 40px;
+    left: 0;
+    right: 0;
+    z-index: 10000;  
+             
+}
+
+.container {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+  .bg-card {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: rgb(253, 249, 249);
+    color: rgb(8, 0, 0);
+    padding: 5px 20px 5px 20px;
+    font-weight: 400;
+    font-size: x-large;
+
+  }
+
+ 
+  .Another{
+    margin-top: 10px;
+    margin-left: 10px;
+    justify-items: normal;
+    line-height: 0.5cm;
+  }
+
+  h1{
+    font-weight: 600;
+    font-size: xx-large;
+  }
+
+  p{
+    font-weight: 200;
+    font-size: larger;
+  }
+
+   a {
+    text-decoration: none;
+    color: rgb(75, 68, 68);
+    display:inline-flex;
+    justify-content: space-between;
+    margin: 7px;
+    font-size: large;
+    
+  }
